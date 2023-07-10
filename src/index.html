@@ -11,19 +11,56 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container-fluid">
+      <div class="card" style="width: 320px; height: 400px;" id="cards">
+
+        <div class="topLeft" id="topCard">          
+        </div>
+
+        <div>
+          <h1 class="text-center" id="centerCard"></h1>
+        </div> 
+
+        <div class="bottomRight" id="bottomCard">          
+        </div>
+                
+      </div>   
+      
+      <div class="controlCard">
+        <button class="sizes btn btn-primary" id="btnCardGenerator">
+          New Card!
+        </button>
       </div>
+      
+      <div class="controlSize">
+        <input type="text" id="inputAncho" placeholder="Width" />
+        <input type="text" id="inputAlto" placeholder="height" />
+        <button id="btnSize"">Size</button>
+      </div>
+
+      <div class="fixed-bottom p-4 bg-dark text-white text-center">
+        Made with ❤️ by
+        <a href="https://github.com/Jose1gnacio" class= "text-white" >Jose1gnacio</a>
+      </div>
+
     </div>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
 </html>

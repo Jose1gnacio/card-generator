@@ -1,1 +1,45 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: linear-gradient(to right, #00ff00, #0e7e12);
+}
+.icon-size {
+  font-size: 44px;
+}
+.icon-color-black {
+  color: black;
+}
+.icon-color-red {
+  color: red;
+}
+img {
+  width: 11rem;
+  color: black;
+}
+.card {
+  margin: 0 auto;
+  margin-top: 11px;
+  margin-bottom: 5px;
+}
+.topLeft {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  padding-top: 11px;
+  padding-left: 11px;
+}
+.bottomRight {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  transform: rotate(-180deg);
+  padding-top: 11px;
+  padding-left: 11px;
+}
+.controlCard {
+  margin-left: 577px;
+  margin-bottom: 5px;
+}
+.controlSize {
+  margin-left: 433px;
+  margin-bottom: 5px;
+}
